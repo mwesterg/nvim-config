@@ -49,8 +49,13 @@ require('packer').startup(function()
 	use 'hrsh7th/nvim-cmp'
 	use 'L3MON4D3/LuaSnip'
 	use 'saadparwaiz1/cmp_luasnip'
-	use 'b3nj5m1n/kommentary'
 	use 'epheien/termdbg'
+	use {
+	    'numToStr/Comment.nvim',
+	    config = function()
+		require('Comment').setup()
+	    end
+	}
 end)
 
 
