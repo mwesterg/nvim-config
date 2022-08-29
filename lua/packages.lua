@@ -10,6 +10,7 @@ require('packer').startup(function()
 	use 'saadparwaiz1/cmp_luasnip'
 	use 'epheien/termdbg'
 	use 'm4xshen/autoclose.nvim'
+	use 'morhetz/gruvbox'
 	use {
 	    'numToStr/Comment.nvim',
 	    config = function()
