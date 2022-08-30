@@ -8,6 +8,7 @@ require('config_lsp')
 require('config_cmp')
 
 require('Comment').setup()
+vim.notify = require("notify")
 
 local function blah()
 	print "Hello"
