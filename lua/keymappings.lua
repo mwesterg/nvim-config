@@ -22,7 +22,7 @@ vim.g.maplocalleader = " "
 
 -- Normal --
 
-keymap("n","w", ":w<CR>", opts)
+keymap("n","<Leader>w", ":w<CR>", opts)
 keymap("n","gv", ":vertical wincmd f<CR>", opts)
 keymap("n","q", ":q<CR>", opts)
 keymap("n","<Leader>qq", ":q!<CR>", opts)
